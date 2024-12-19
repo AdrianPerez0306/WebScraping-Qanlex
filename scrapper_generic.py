@@ -1,3 +1,6 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
 # Scrapper generico, las tareas basicas siempre son 
 # connect, disconnect, find_byXPATH, navegar, extraer-datos
 class Scrapper():
@@ -19,8 +22,16 @@ class Scrapper():
     def extract_data(self):
         pass
 
-    def find_by_XPATH(self, XPATH:str):
+    def find_by_XPATH(self, _XPATH:str):
         return self.driver.find_element(
             by=By.XPATH,
-            value=XPATH
+            value=_XPATH
         )
+    
+    def fill_input(self, input:str, XPATH:str):
+        input_field = self.find_by_XPATH(XPATH)
+        input_field.send_keys(input)
+
+    def click_button(self, XPATH:str):
+        button = self.find_by_XPATH(XPATH)
+        button.click()
