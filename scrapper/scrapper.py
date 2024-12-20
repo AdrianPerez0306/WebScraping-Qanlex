@@ -2,8 +2,8 @@ import copy
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from expediente import DataExpediente
-from scrapper_generic import Scrapper
+from scrapper.expediente import DataExpediente
+from scrapper.scrapper_generic import Scrapper
 from selenium.webdriver.remote.webelement import WebElement
 
 ################################################
