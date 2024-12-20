@@ -1,5 +1,5 @@
 # WebScraping-Qanlex
-Contexto teorico. ![TP Base de datos 2024 UNSAM.pdf](https://github.com/AdrianPerez0306/WebScraping-Qanlex/blob/1919300833bcfd8d714f6c503c734e3a3e101743/Qanlex%20-%20Ejercicio%20para%20aplicantes.pdf)
+Contexto teorico. ![ejercicio.pdf](https://github.com/AdrianPerez0306/WebScraping-Qanlex/blob/1919300833bcfd8d714f6c503c734e3a3e101743/Qanlex%20-%20Ejercicio%20para%20aplicantes.pdf)
 
 ## Instalación de entorno :hammer_and_wrench: 
 Este desarrolo fue realizado en un entorno de `OS debian ubuntu 22.04`, [`python 3.10.12`].
