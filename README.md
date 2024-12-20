@@ -26,11 +26,4 @@ Instalar dependencias:
 ```bash
 pip install -r requirements.txt
 ```
-
-## Instalación de entorno :hammer_and_wrench: 
-Ejecutar el scrip en vscode(agregar extension de python debugger) o ejecutar:
-```bash
-python3 main.py
-python3 preprocessing/preprocessing.py
-```
-
+Una vez instaladas las dependencias ya podemos ejecutar los scripts
