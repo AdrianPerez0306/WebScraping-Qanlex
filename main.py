@@ -1,6 +1,8 @@
 from scrapper.scrapper import ScrapperTareaQanlex
 from selenium import webdriver
 
+PATH:str = '/home/the14th/Downloads/'
+
 if __name__ == "__main__":
     URL = "https://scw.pjn.gov.ar/scw/home.seam"
     driver = webdriver.Chrome()

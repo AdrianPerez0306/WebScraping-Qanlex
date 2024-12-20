@@ -1,7 +1,8 @@
 import pandas as pd
 import os
-from preprocessing.cleaning_funcs import clean_list, parse_list_string_structured
-from config import PATH
+from cleaning_funcs import clean_list, parse_list_string_structured
+
+PATH:str = '/home/the14th/Downloads/'
 
 os.chdir(PATH)
 df_expedientes = pd.read_csv('expedientes.csv')

@@ -19,7 +19,7 @@ pip install virtualenv
 ```
 Una vez instalado Python, descargamos virtualenv para crear un entorno virtual e instalar las dependencias necesarias:
 ```bash
-virtualenv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 ```
 Instalar dependencias:

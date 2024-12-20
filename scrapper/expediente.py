@@ -1,5 +1,6 @@
 import pandas as pd
-from config import PATH
+
+
 
 #Cada expediente tiene id, JURISDICCION, DEPENDENCIA, situacion_actual, caratula, {actuaciones -> oficina, fecha, tipo, detalle, a_fs}
 column_names = ['id', 'jurisdiccion', 'dependencia', 'situacion_actual', 'caratula', 'actuaciones', 'intervinientes']
