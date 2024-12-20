@@ -9,9 +9,9 @@ from selenium.webdriver.remote.webelement import WebElement
 ################################################
 #   CONFIGURACIONES
 ################################################
-JURISDICCION = 'COM - Camara Nacional de Apelaciones en lo Comercial'
-PALABRA_CLAVE = 'residuos'
-
+JURISDICCION:str = 'COM - Camara Nacional de Apelaciones en lo Comercial'
+PALABRA_CLAVE:str = 'residuos'
+ESPERA_CATPCHA_MANUAL:int = 15
 #Estos XPATH son los usados para el ejercicio propuesto. Luego para navegacion se pueden
 # crear sus respectivos XPATH, para un mejor control de navegacion.
 # Esto podria generar el inconveniente de repetir varios XPATH, segun la cantidad de tareas independientes
@@ -78,7 +78,7 @@ class ScrapperTareaQanlex(Scrapper):
     def __enfrentar_captcha(self):
         self.__switch_html_frame(0)
         self.click_button(XPATHS_TAREA['captcha'])
-        time.sleep(10)
+        time.sleep(ESPERA_CATPCHA_MANUAL)
         self.driver.switch_to.default_content()
 
 
