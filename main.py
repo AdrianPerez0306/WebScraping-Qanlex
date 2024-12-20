@@ -10,26 +10,6 @@ if __name__ == "__main__":
     scrapper.navigate_to_data()
     scrapper.extract_data()
     scrapper.disconnect()
+    scrapper.expedientes.show_info()
+    scrapper.expedientes.save_to_csv()
 
-
-# import requests
-# from bs4 import BeautifulSoup
-# from selenium import webdriver
-
-# # Obtener la respuesta inicial
-# response = requests.get('https://www.geeksforgeeks.org/python-programming-language/')
-# if response.status_code == 200:
-#     print("API OK")
-# else:
-#     'PROBLEMAS'
-
-# # print(response)
-# #Parsea a beatifoul soup
-# soup = BeautifulSoup(response.content, 'html.parser')
-
-
-
-# print(soup.find(id="formPublica"))
-# print(soup.form.formPublica)
-# # print(soup.find(id="formPublica:porParte"))
-# # print(soup.prettify())
