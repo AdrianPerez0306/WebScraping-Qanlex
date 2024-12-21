@@ -26,4 +26,8 @@ Instalar dependencias:
 ```bash
 pip install -r requirements.txt
 ```
-Una vez instaladas las dependencias ya podemos ejecutar los scripts
+Una vez instaladas las dependencias ya podemos ejecutar los scripts.
+Luego de ejecutar los scrips, deberian aparecer en la carpeta de descargas.
+Para este caso, en OS Ubuntu 22.04 el path esta seteado en < /home/the14th/Downloads >
+![image](https://github.com/user-attachments/assets/1e4fff69-5fc2-4d06-a85d-3e3309d92d6e)
+
